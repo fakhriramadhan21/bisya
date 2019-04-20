@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".course.angka.BelajarAngka">
+
+    <TextView
+        android:id="@+id/choose_the"
+        android:layout_width="213dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="92dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/choose_the"
+        android:textAppearance="@style/choose_the_"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/satu"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="151dp"
+        android:background="@drawable/btn_green"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/dua"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="154dp"
+        android:background="@drawable/btn_green"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/tiga"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="201dp"
+        android:layout_marginLeft="201dp"
+        android:layout_marginTop="152dp"
+        android:background="@drawable/btn_green"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/empat"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="287dp"
+        android:layout_marginLeft="287dp"
+        android:layout_marginTop="153dp"
+        android:background="@drawable/btn_green"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/lima"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="221dp"
+        android:background="@drawable/btn_green"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/enam"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="221dp"
+        android:background="@drawable/btn_green"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/tujuh"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/btn_green"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/delapan"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="287dp"
+        android:layout_marginLeft="287dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/btn_green"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/sembilan"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="292dp"
+        android:background="@drawable/btn_green"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/sepuluh"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="291dp"
+        android:background="@drawable/btn_green"
+        android:text="10" />
+
+    <Button
+        android:id="@+id/seratus"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="203dp"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="291dp"
+        android:background="@drawable/btn_green"
+        android:text="100" />
+
+    <Button
+        android:id="@+id/seribu"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="287dp"
+        android:layout_marginStart="287dp"
+        android:layout_marginTop="292dp"
+        android:background="@drawable/btn_green"
+        android:text="1000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginRight="94dp"
+        android:text="BELAJAR ANGKA"
+        android:textColor="#32CD32"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="benda" type="id" />
+    <item name="kerja" type="id" />
+    <item name="sifat" type="id" />
+</resources>

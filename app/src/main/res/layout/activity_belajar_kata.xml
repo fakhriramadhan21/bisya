@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".course.kata.BelajarKata"
+    android:orientation="horizontal"
+    android:padding="5pt"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <TextView
+        android:id="@+id/kalimat_empat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="BELAJAR KATA"
+        android:textColor="#32CD32"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="182dp"
+        android:background="@drawable/btn_green"
+        android:text="Kata Tanya"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button45"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="227dp"
+        android:background="@drawable/btn_green"
+        android:text="Kata Perintah"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button46"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button45"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-221dp"
+        android:background="@drawable/btn_green"
+        android:text="Kata Benda"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button47"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button46"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/btn_green"
+        android:text="Kata Sifat"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/sapaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button47"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/btn_green"
+        android:text="Kata Sapaan"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button49"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sapaan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_green"
+        android:text="Kata Kerja"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

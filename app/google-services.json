@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "988860875718",
+    "firebase_url": "https://bisya-a1b93.firebaseio.com",
+    "project_id": "bisya-a1b93",
+    "storage_bucket": "bisya-a1b93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988860875718:android:091e399acaef4d69",
+        "android_client_info": {
+          "package_name": "com.frankyindustries.fakhri.bisya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988860875718-m2pklsop3m963nk699l8qn1h28ghu43u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.frankyindustries.fakhri.bisya",
+            "certificate_hash": "8b68021990f7f50467e48c1285085afa8e3b32c4"
+          }
+        },
+        {
+          "client_id": "988860875718-bqndl82b9lvdcuk4s73c3otsbi6c6knp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9IUhevBgDZXzgVWiSKbJPzoxQ6R5DB0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988860875718-bqndl82b9lvdcuk4s73c3otsbi6c6knp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

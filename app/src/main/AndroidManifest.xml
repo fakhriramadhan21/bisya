@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.frankyindustries.fakhri.bisya">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat"
+        android:hardwareAccelerated="true">
+        <activity
+            android:name=".menu.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu.home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".course.huruf.BelajarHuruf"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".course.angka.BelajarAngka"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".course.kata.BelajarKata"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyExercise"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".menu.About"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".course.MyCourse"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".menu.Developer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".exercise.Exercise"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".course.kalimat.BelajarKalimat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".course.kalimat.tanya.KalimatTanya"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".exercise.ExerciseMengurutkan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExerciseKalimat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".course.kalimat.BelajarKalimat_2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".course.kalimat.belajar_kalimat_3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".course.kalimat.belajar_kalimat_4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".course.kata.sapaan.KataSapaan_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".course.kata.sapaan.KataSapaan_2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".show_content"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".show_video"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".exercise.quis.MainActivity"
+            android:label="@string/app_name">
+            >
+        </activity>
+        <activity
+            android:name=".exercise.quis.QuizActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".exercise.quis.MainActivity"></activity>
+
+        <activity android:name=".congratulations"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

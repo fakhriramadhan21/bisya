@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splashscreen"
+    tools:context=".menu.About">
+    <LinearLayout
+        android:layout_marginTop="60pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20pt"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:text="WELCOME"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20pt"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:text="PEOPLE"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="6pt"
+        android:paddingLeft="30pt"
+        android:paddingRight="30pt"
+        android:textColor="#FCFCFC"
+        android:text="Belajar bahasa isyarat itu asyik loh Yuk kita coba belajar, lets start now.."/>
+
+</LinearLayout>
