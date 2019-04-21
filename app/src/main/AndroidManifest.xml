@@ -70,12 +70,12 @@
         <activity
             android:name=".course.kalimat.belajar_kalimat_4"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".course.kata.sapaan.KataSapaan_1"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".course.kata.sapaan.KataSapaan_2"
-            android:theme="@style/AppTheme.NoActionBar" />
+        <!--<activity-->
+            <!--android:name=".course.kata.sapaan.sapaa"-->
+            <!--android:theme="@style/AppTheme.NoActionBar" />-->
+        <!--<activity-->
+            <!--android:name=".course.kata.sapaan.KataSapaan_2"-->
+            <!--android:theme="@style/AppTheme.NoActionBar" />-->
         <activity android:name=".show_content"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".show_video"
@@ -92,6 +92,13 @@
             android:parentActivityName=".exercise.quis.MainActivity"></activity>
 
         <activity android:name=".congratulations"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".course.kata.sifat.KataSifat"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".course.kata.kerja.KataKerja"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".course.kata.benda.KataBenda"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

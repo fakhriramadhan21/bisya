@@ -10,8 +10,19 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="51dp"
+        app:srcCompat="@drawable/a6" />
+
     <TextView
-        android:id="@+id/kalimat_empat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -21,67 +32,39 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button44"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/sifat"
+        android:layout_width="390dp"
+        android:layout_height="61dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="182dp"
-        android:background="@drawable/btn_green"
-        android:text="Kata Tanya"
-        android:textColor="#FFFFFF" />
-
-    <Button
-        android:id="@+id/button45"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="227dp"
-        android:background="@drawable/btn_green"
-        android:text="Kata Perintah"
-        android:textColor="#FFFFFF" />
-
-    <Button
-        android:id="@+id/button46"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button45"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="-221dp"
-        android:background="@drawable/btn_green"
-        android:text="Kata Benda"
-        android:textColor="#FFFFFF" />
-
-    <Button
-        android:id="@+id/button47"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button46"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="9dp"
+        android:layout_marginTop="253dp"
         android:background="@drawable/btn_green"
         android:text="Kata Sifat"
-        android:textColor="#FFFFFF" />
+        android:onClick="Kata_Sifat"
+        android:textColor="#FFFFFF"
+        tools:ignore="OnClick" />
 
     <Button
-        android:id="@+id/sapaan"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button47"
-        android:layout_marginTop="9dp"
-        android:background="@drawable/btn_green"
-        android:text="Kata Sapaan"
-        android:textColor="#FFFFFF" />
-
-    <Button
-        android:id="@+id/button49"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/sapaan"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp"
+        android:id="@+id/kerja"
+        android:layout_width="393dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/sifat"
+        android:layout_marginTop="22dp"
         android:background="@drawable/btn_green"
         android:text="Kata Kerja"
-        android:textColor="#FFFFFF" />
+        android:onClick="Kata_Kerja"
+        android:textColor="#FFFFFF"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/benda"
+        android:layout_width="390dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/kerja"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_green"
+        android:text="Kata Benda"
+        android:onClick="Kata_Benda"
+        android:textColor="#FFFFFF"
+        tools:ignore="OnClick" />
 
 </RelativeLayout>

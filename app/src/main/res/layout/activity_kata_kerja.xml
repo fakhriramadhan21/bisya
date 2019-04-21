@@ -70,7 +70,8 @@
             android:onClick="Kerja_2"
             android:text="2. Minum"
             android:textColor="@android:color/black"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            tools:ignore="OnClick" />
 
         <TextView
             android:id="@+id/kerja_3"
@@ -80,7 +81,8 @@
             android:onClick="Kerja_3"
             android:text="3. Jalan"
             android:textColor="@android:color/black"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            tools:ignore="OnClick" />
 
         <TextView
             android:id="@+id/kerja_4"
@@ -90,7 +92,8 @@
             android:onClick="Kerja_4"
             android:text="4. Dengar"
             android:textColor="@android:color/black"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            tools:ignore="OnClick" />
 
         <TextView
             android:id="@+id/kerja_5"
@@ -101,19 +104,10 @@
             android:onClick="Kerja_5"
             android:text="5. Baca"
             android:textColor="@android:color/black"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            tools:ignore="OnClick" />
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="43dp"
-            android:layout_height="33dp"
-            android:layout_alignBottom="@+id/btnkembali_kerja"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="5dp"
-            app:srcCompat="@drawable/a1" />
+
     </RelativeLayout>
 </RelativeLayout>
 
