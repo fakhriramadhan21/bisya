@@ -9,10 +9,7 @@
         android:id="@+id/kata_benda"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="#FFFFFF"
-
-
-        >
+        android:background="#FFFFFF">
 
         <Button
             android:id="@+id/btnkembali_benda"
@@ -108,7 +105,7 @@
             android:textSize="18sp"
             tools:ignore="OnClick" />
 
-        
+
     </RelativeLayout>
 </RelativeLayout>
 

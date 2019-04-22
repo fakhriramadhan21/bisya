@@ -7,7 +7,7 @@ import android.view.View;
 
 import com.frankyindustries.fakhri.bisya.R;
 
-public class BelajarKalimat_2 extends AppCompatActivity {
+public class belajarKalimat_2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

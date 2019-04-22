@@ -7,7 +7,8 @@ import android.view.View;
 
 import com.frankyindustries.fakhri.bisya.course.angka.BelajarAngka;
 import com.frankyindustries.fakhri.bisya.course.huruf.BelajarHuruf;
-import com.frankyindustries.fakhri.bisya.course.kalimat.BelajarKalimat_2;
+import com.frankyindustries.fakhri.bisya.course.kalimat.belajarKalimat_2;
+import com.frankyindustries.fakhri.bisya.course.kalimat.belajarKalimat_2;
 import com.frankyindustries.fakhri.bisya.course.kata.BelajarKata;
 import com.frankyindustries.fakhri.bisya.R;
 
@@ -30,7 +31,7 @@ public class MyCourse extends AppCompatActivity {
     }
 
     public void BelajarKalimat(View view) {
-        Intent explicit = new Intent(this,BelajarKalimat_2.class);
+        Intent explicit = new Intent(this,belajarKalimat_2.class);
         startActivity(explicit);
     }
 

@@ -27,9 +27,9 @@
             android:layout_width="match_parent"
             android:layout_height="46dp"
             android:gravity="center"
-            android:text="KALIMAT TUNGGAL"
+            android:text="KALIMAT BERITA"
             android:textColor="@android:color/black"
-            android:textSize="18sp" />
+            android:textSize="14sp" />
     </LinearLayout>
 
     <TextView
@@ -37,16 +37,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="akuCintaKamu"
-        android:text="1. Aku Kenyang"
+        android:text="1. Nama Panggilan Saya Dian"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/kalimat_2"
+        android:id="@+id/kalimat_dua"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2. Aku Malas"
+        android:text="2. Saya Kenyang"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -54,33 +54,7 @@
         android:id="@+id/kalimat_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3. Nama Panggilan Saya Dian"
-        android:textSize="24sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/kalimat_4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="4. Rumah Kamu Dimana"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/kalimat_3" />
-
-    <TextView
-        android:id="@+id/kalimat_5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="5. Kamu Umur Berapa"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/kalimat_empat" />
-
-    <TextView
-        android:id="@+id/kalimat_6"
-        android:layout_width="324dp"
-        android:layout_height="wrap_content"
-        android:text="6. Nama Kamu Siapa"
+        android:text="3. Kamu Malas"
         android:textSize="24sp"
         android:textStyle="bold" />
 
