@@ -13,7 +13,7 @@ import com.frankyindustries.fakhri.bisya.menu.home;
 public class congratulations extends AppCompatActivity {
 
     TextView selamat;
-    String score;
+
     Button home1, game;
 
     @Override
@@ -21,12 +21,11 @@ public class congratulations extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_congratulations);
 
-        Intent intent=getIntent();
-        score = intent.getStringExtra("score");
+
 
         selamat = findViewById(R.id.congratulation);
 
-        selamat.setText("SELAMAT SKOR ANDA "+ score);
+        selamat.setText("SELAMAT SKOR ANDA 10");
 
         home1 =findViewById(R.id.bck_home);
         game =findViewById(R.id.bck_game);

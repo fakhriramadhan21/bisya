@@ -12,10 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:src="@drawable/mask" />
 
         <Button
             android:layout_width="wrap_content"
@@ -27,17 +23,17 @@
             android:layout_width="match_parent"
             android:layout_height="46dp"
             android:gravity="center"
-            android:text="KALIMAT BERITA"
+            android:text="KALIMAT TUNGGAL"
             android:textColor="@android:color/black"
-            android:textSize="14sp" />
+            android:textSize="18sp" />
     </LinearLayout>
 
     <TextView
-        android:id="@+id/kalimat_1"
+        android:id="@+id/kalimat_satu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="akuCintaKamu"
-        android:text="1. Nama Panggilan Saya Dian"
+        android:text="1. aku cinta kamu"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintVertical_bias="1.0" />
@@ -46,17 +42,35 @@
         android:id="@+id/kalimat_dua"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2. Saya Kenyang"
+        android:text="2. Ibu sedang memasak"
         android:textSize="24sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/kalimat_3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="3. Kamu Malas"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        <TextView
+            android:id="@+id/kalimat_tiga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Kakak pergi ke sekolah"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kalimat_empat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Imam pergi memancing"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/kalimat_tiga" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Adi pergi berangkat ke kantor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/kalimat_empat" />
 
 
 </LinearLayout>

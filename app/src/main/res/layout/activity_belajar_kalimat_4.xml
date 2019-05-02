@@ -1,85 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".course.kalimat.belajar_kalimat_4">
-
-    <Button
-        android:id="@+id/rectangle_2"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/btn_green"
-        android:text="Kembali" />
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_green"
+            android:text="Kembali" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:gravity="center"
+            android:text="KALIMAT BERITA"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+    </LinearLayout>
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="46dp"
-        android:layout_alignParentTop="true"
-        android:gravity="center"
-        android:text="KALIMAT TUNGGAL"
-        android:textColor="@android:color/black"
-        android:textSize="18sp" />
+        android:id="@+id/kalimat_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="akuCintaKamu"
+        android:text="1. Nama Panggilan Saya Dian"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="1.0" />
 
-    <android.support.constraint.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".course.kalimat.belajar_kalimat_4">
+    <TextView
+        android:id="@+id/kalimat_dua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Saya Kenyang"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
-        <ImageView
-            android:id="@+id/love"
-            android:layout_width="400dp"
-            android:layout_height="311dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:background="@drawable/love"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="10dp"
-            tools:layout_editor_absoluteY="77dp" />
-
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="357dp"
-            android:layout_height="0dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
-            android:gravity="center"
-            android:text="I Love you"
-            android:textColor="@android:color/black"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/love" />
-
-        <TextView
-            android:id="@+id/tunjuk_diri"
-            android:layout_width="384dp"
-            android:layout_height="197dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="36dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginBottom="8dp"
-            android:contentDescription="Tunjuk diri Anda. Kepalkan kedua tangan Anda dan silangkan di depan dada Anda seperti akan memeluk seseorang. Tunjuk orang yang Anda cintai."
-            android:text="Tunjuk diri Anda. Kepalkan kedua tangan Anda dan silangkan di depan dada Anda seperti akan memeluk seseorang. Tunjuk orang yang Anda cintai."
-            android:textColor="@android:color/black"
-            android:textSize="24sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView7"
-            app:layout_constraintVertical_bias="0.0" />
+    <TextView
+        android:id="@+id/kalimat_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Kamu Malas"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
 
-    </android.support.constraint.ConstraintLayout>
-</RelativeLayout>
+</LinearLayout>

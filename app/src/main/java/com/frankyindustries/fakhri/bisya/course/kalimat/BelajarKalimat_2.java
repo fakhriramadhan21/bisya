@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.frankyindustries.fakhri.bisya.R;
+import com.frankyindustries.fakhri.bisya.course.kalimat.tanya.KalimatTanya;
 
 public class belajarKalimat_2 extends AppCompatActivity {
 
@@ -17,6 +18,10 @@ public class belajarKalimat_2 extends AppCompatActivity {
 
     public void KalimatTunggal(View view) {
         Intent explicit = new Intent(this, belajar_kalimat_3.class);
+        startActivity(explicit);
+    }
+    public void KalimatTanya(View view) {
+        Intent explicit = new Intent(this, KalimatTanya.class);
         startActivity(explicit);
     }
 }

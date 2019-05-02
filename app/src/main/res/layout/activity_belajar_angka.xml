@@ -163,19 +163,6 @@
         android:background="@drawable/btn_green"
         android:text="100" />
 
-    <Button
-        android:id="@+id/seribu"
-        android:layout_width="59dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="287dp"
-        android:layout_marginStart="287dp"
-        android:layout_marginTop="292dp"
-        android:background="@drawable/btn_green"
-        android:text="1000" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

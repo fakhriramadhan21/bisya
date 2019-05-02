@@ -19,7 +19,7 @@ public class belajar_kalimat_3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_balajar_kalimat_3);
+        setContentView(R.layout.activity_belajar_kalimat_4);
 
         kalimat_1 = findViewById(R.id.kalimat_1);
         kalimat_2 = findViewById(R.id.kalimat_dua);
@@ -54,4 +54,3 @@ public class belajar_kalimat_3 extends AppCompatActivity {
         });
     }
 }
-

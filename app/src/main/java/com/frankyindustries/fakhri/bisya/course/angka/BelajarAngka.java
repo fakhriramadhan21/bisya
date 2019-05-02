@@ -32,7 +32,7 @@ public class BelajarAngka extends AppCompatActivity {
         sembilan = findViewById(R.id.sembilan);
         sepuluh = findViewById(R.id.sepuluh);
         seratus = findViewById(R.id.seratus);
-        seribu = findViewById(R.id.seribu);
+//        seribu = findViewById(R.id.seribu);
 
 //        Buat onClick (perintah kalau di klik dia ngapain)
         satu.setOnClickListener(new View.OnClickListener() {
