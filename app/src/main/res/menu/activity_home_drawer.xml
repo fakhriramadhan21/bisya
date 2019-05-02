@@ -21,6 +21,10 @@
             android:icon="@drawable/developer"
             android:title="Our Developers" />
         <item
+            android:id="@+id/nav_invite"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Invite" />
+        <item
             android:id="@+id/nav_help"
             android:icon="@drawable/help"
             android:title="Feedback" />

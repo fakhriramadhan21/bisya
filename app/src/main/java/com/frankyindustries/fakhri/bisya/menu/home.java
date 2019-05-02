@@ -15,18 +15,21 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.frankyindustries.fakhri.bisya.MyExercise;
+import com.frankyindustries.fakhri.bisya.SettingsActivity;
 import com.frankyindustries.fakhri.bisya.exercise.ExerciseMengurutkan;
 import com.frankyindustries.fakhri.bisya.course.MyCourse;
 import com.frankyindustries.fakhri.bisya.R;
 
 import com.frankyindustries.fakhri.bisya.exercise.quis.MainActivity;
 import com.frankyindustries.fakhri.bisya.exercise.quis.QuizActivity;
+import com.google.android.gms.appinvite.AppInviteInvitation;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class home extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     public static final String MESSAGES_CHILD = "data";
+    private static final int REQUEST_INVITE = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,6 +83,8 @@ public class home extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Intent explicit = new Intent(this, SettingsActivity.class);
+            startActivity(explicit);
             return true;
         }
 
@@ -123,6 +128,17 @@ public class home extends AppCompatActivity
             Toast.makeText(getApplication(),"Ini help",
                     Toast.LENGTH_LONG).show();
 
+        } else if (id == R.id.nav_invite) {
+            Intent intent = new AppInviteInvitation.IntentBuilder("BISYA'S INVITATION")
+                    .setMessage("Anda mendapatkan undangan untuk menggunakan aplikasi BISYA")
+                    .setDeepLink(Uri.parse("https://ewyc6.app.goo.gl/eNh4"))
+                    .setCallToActionText("Bisya's Invitation")
+                    .build();
+            startActivityForResult(intent, REQUEST_INVITE);
+
+            Toast.makeText(getApplication(),"Ini help",
+                    Toast.LENGTH_LONG).show();
+
         } else {
             Toast.makeText(getApplication(),"Ini exit",
                     Toast.LENGTH_LONG).show();
@@ -140,6 +156,7 @@ public class home extends AppCompatActivity
         Toast.makeText(getApplication(),"Ini my courses",
                 Toast.LENGTH_LONG).show();
     }
+
 
     public void myexercises(View view) {
 //        DatabaseReference mFirebaseDatabaseReference;

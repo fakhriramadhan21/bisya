@@ -12,10 +12,12 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.frankyindustries.fakhri.bisya.R;
 import com.frankyindustries.fakhri.bisya.congratulations;
 import com.frankyindustries.fakhri.bisya.show_content;
+import com.google.firebase.analytics.FirebaseAnalytics;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -44,12 +46,14 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
     private int score;
     private int qPoints;
     private ImageView gambar;
+    private FirebaseAnalytics mFirebaseAnalytics;
 
 
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         setupUI();
         startQuiz();
@@ -135,6 +139,13 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
             score = score + qPoints;
             tvResponse.setVisibility(View.VISIBLE);
             tvResponse.setText("CORRECT!");
+            Toast.makeText(QuizActivity.this,"Jawaban benar",
+                    Toast.LENGTH_LONG).show();
+            Bundle bundle = new Bundle();
+            bundle.putString(FirebaseAnalytics.Param.ITEM_ID, "1234567");
+            bundle.putString(FirebaseAnalytics.Param.ITEM_NAME, "Correct Answer");
+            bundle.putString(FirebaseAnalytics.Param.CONTENT_TYPE, "exercise");
+            mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
             button.setTextColor(getResources().getColor(R.color.green));
             disableButtons();
             handler.postDelayed(new Runnable() {
@@ -148,6 +159,13 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
             qPoints = qPoints - 3;
             tvResponse.setVisibility(View.VISIBLE);
             tvResponse.setText("INCORRECT!");
+            Toast.makeText(QuizActivity.this,"Jawaban Salah",
+                    Toast.LENGTH_LONG).show();
+            Bundle bundle = new Bundle();
+            bundle.putString(FirebaseAnalytics.Param.ITEM_ID, "12345678");
+            bundle.putString(FirebaseAnalytics.Param.ITEM_NAME, "Wrong Answer");
+            bundle.putString(FirebaseAnalytics.Param.CONTENT_TYPE, "exercise");
+            mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
             button.startAnimation(shakeAnimation);
             button.setTextColor(getResources().getColor(R.color.red));
             button.setClickable(false);

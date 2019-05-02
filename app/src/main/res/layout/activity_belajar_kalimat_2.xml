@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/button4"
         android:layout_centerHorizontal="true"
-        android:text="KATA"
+        android:text="BELAJAR"
         android:textColor="#32CD32"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -39,7 +39,7 @@
         android:layout_alignTop="@+id/button4"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
-        android:text="SAPAAN"
+        android:text="KALIMAT"
         android:textColor="#32CD32"
         android:textSize="24sp"
         android:textStyle="bold" />

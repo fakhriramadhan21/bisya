@@ -6,12 +6,12 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/bisya"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/bisya"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat"
-        android:hardwareAccelerated="true">
+        android:theme="@style/Theme.AppCompat">
         <activity
             android:name=".menu.MainActivity"
             android:label="@string/app_name"
@@ -70,36 +70,43 @@
         <activity
             android:name=".course.kalimat.belajar_kalimat_4"
             android:theme="@style/AppTheme.NoActionBar" />
-        <!--<activity-->
-            <!--android:name=".course.kata.sapaan.sapaa"-->
-            <!--android:theme="@style/AppTheme.NoActionBar" />-->
-        <!--<activity-->
-            <!--android:name=".course.kata.sapaan.KataSapaan_2"-->
-            <!--android:theme="@style/AppTheme.NoActionBar" />-->
-        <activity android:name=".show_content"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".show_video"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        <!-- <activity -->
+        <!-- android:name=".course.kata.sapaan.sapaa" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
+        <!-- <activity -->
+        <!-- android:name=".course.kata.sapaan.KataSapaan_2" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
         <activity
-            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".show_content"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".show_video"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".exercise.quis.MainActivity"
-            android:label="@string/app_name">
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
             >
         </activity>
         <activity
             android:name=".exercise.quis.QuizActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".exercise.quis.MainActivity"></activity>
-
-        <activity android:name=".congratulations"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-
-        <activity android:name=".course.kata.sifat.KataSifat"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".course.kata.kerja.KataKerja"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".course.kata.benda.KataBenda"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:parentActivityName=".exercise.quis.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".congratulations"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".course.kata.sifat.KataSifat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".course.kata.kerja.KataKerja"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".course.kata.benda.KataBenda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
     </application>
 
 </manifest>
