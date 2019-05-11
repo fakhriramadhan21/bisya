@@ -124,4 +124,17 @@ public class show_video extends AppCompatActivity {
         }
     }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+        webViewSaya.onPause();//if it's not webview in your case then add the method name you want pause when user device is pause
+    }
+
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        webViewSaya.onResume();//same as here if it's not webview then add the method name you want to resume when user resume their device
+    }
+
 }
