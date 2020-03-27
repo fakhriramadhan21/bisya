@@ -67,9 +67,6 @@
             android:name=".ExerciseKalimat"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".course.kalimat.belajarKalimat_2"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".course.kalimat.belajar_kalimat_3"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity

@@ -38,7 +38,8 @@ public class BelajarAngka extends AppCompatActivity {
         satu.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
-                url = "https://lh3.googleusercontent.com/NaUv4SwpN25xaWD2HUzB9Hsb2S11i3MqYDdoidsJB7w0ia-ZC549uBM_fdU=w2400";
+                url = "http://drive.google.com/uc?export=view&id=1G4rc5IYsowgAersTCkXR0fvB8W3Wh187";
+//                url = "https://lh3.googleusercontent.com/NaUv4SwpN25xaWD2HUzB9Hsb2S11i3MqYDdoidsJB7w0ia-ZC549uBM_fdU=w2400";
 //                How to get the URL?? open this champ https://www.labnol.org/internet/embed-google-photos-in-website/29194/
                 keterangan = "Satu";
                 Intent intent=new Intent(getApplicationContext(),show_content.class);

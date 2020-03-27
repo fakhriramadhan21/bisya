@@ -8,7 +8,7 @@ import android.view.View;
 import com.frankyindustries.fakhri.bisya.R;
 import com.frankyindustries.fakhri.bisya.course.kalimat.tanya.KalimatTanya;
 
-public class belajarKalimat_2 extends AppCompatActivity {
+public class belajar_kalimat_2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

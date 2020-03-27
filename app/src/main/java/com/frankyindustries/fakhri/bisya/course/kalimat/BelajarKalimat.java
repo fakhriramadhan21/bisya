@@ -16,7 +16,7 @@ public class BelajarKalimat extends AppCompatActivity {
     }
 
     public void KalimatTunggal(View view) {
-            Intent explicit = new Intent(this, belajarKalimat_2.class);
+            Intent explicit = new Intent(this, belajar_kalimat_2.class);
             startActivity(explicit);
     }
 }
